@@ -5,3 +5,9 @@
 You need to merge the remote branch into your current branch by running `git pull`.
 
 If your local branch is already up-to-date, you may also need to run `git pull --rebase`
+
+
+
+2. **The “fatal: refusing to merge unrelated histories” Git error**
+
+$. `git pull origin master --allow-unrelated-histories`
